@@ -4,6 +4,10 @@ A public-ready **SaaS admin dashboard template** for operators, founders, and pr
 
 This repository uses mock data only. It does not include production credentials, private customer data, payment keys, internal company documents, or copied private Git history.
 
+## Preview
+
+![SaaS Admin Dashboard Template desktop preview](screenshots/desktop-preview.jpg)
+
 ## Feature Coverage
 
 - SaaS admin dashboard overview
