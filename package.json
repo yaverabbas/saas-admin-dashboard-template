@@ -1,8 +1,8 @@
 {
-  "name": "ops-dashboard-starter",
+  "name": "saas-admin-dashboard-template",
   "version": "0.1.0",
   "private": true,
-  "description": "A clean reusable SaaS admin operations dashboard template.",
+  "description": "A reusable SaaS admin dashboard template with users, approvals, billing, analytics, integrations, notifications, prompts, SEO, and security modules.",
   "scripts": {
     "check": "node tools/quality-check.mjs"
   }

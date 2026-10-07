@@ -3,20 +3,23 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Ops Dashboard Starter</title>
-    <meta name="description" content="A reusable SaaS admin operations dashboard template.">
+    <title>SaaS Admin Dashboard Template</title>
+    <meta name="description" content="A reusable SaaS admin dashboard template with users, subscriptions, analytics, integrations, notifications, prompts, SEO, and security modules.">
     <link rel="stylesheet" href="./styles.css">
   </head>
   <body>
     <div class="layout">
       <aside class="sidebar">
-        <a class="brand" href="#">Ops Center</a>
+        <a class="brand" href="#">SaaS Admin</a>
         <nav aria-label="Admin navigation">
           <a class="active" href="#">Overview</a>
           <a href="#">Users</a>
           <a href="#">Subscriptions</a>
           <a href="#">Integrations</a>
           <a href="#">Notifications</a>
+          <a href="#">Prompts</a>
+          <a href="#">SEO</a>
+          <a href="#">Security</a>
           <a href="#">Settings</a>
         </nav>
       </aside>
@@ -68,6 +71,45 @@
               </thead>
               <tbody id="users"></tbody>
             </table>
+          </div>
+        </section>
+
+        <section class="feature-grid" aria-label="Admin dashboard modules">
+          <article class="panel">
+            <div class="panel-header">
+              <h2>Prompt library</h2>
+            </div>
+            <p class="muted">Manage prompt templates, test sample inputs, and track active versions with mock controls.</p>
+          </article>
+          <article class="panel">
+            <div class="panel-header">
+              <h2>Marketing controls</h2>
+            </div>
+            <p class="muted">Preview offer banners, referral settings, trial controls, and campaign status without live billing.</p>
+          </article>
+          <article class="panel">
+            <div class="panel-header">
+              <h2>SEO operations</h2>
+            </div>
+            <p class="muted">Track indexed pages, content freshness, sitemap health, and publishing queues with mock data.</p>
+          </article>
+          <article class="panel">
+            <div class="panel-header">
+              <h2>Security review</h2>
+            </div>
+            <p class="muted">Surface suspicious accounts, device signals, rate-limit events, and manual review notes.</p>
+          </article>
+        </section>
+
+        <section class="panel">
+          <div class="panel-header">
+            <h2>Notifications and incidents</h2>
+            <a href="#">Open queue</a>
+          </div>
+          <div class="incident-list">
+            <span>3 unread admin notifications</span>
+            <span>1 integration needs review</span>
+            <span>0 active site errors</span>
           </div>
         </section>
       </main>
