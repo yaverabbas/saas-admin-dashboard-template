@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ops Dashboard Starter</title>
+    <meta name="description" content="A reusable SaaS admin operations dashboard template.">
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+    <div class="layout">
+      <aside class="sidebar">
+        <a class="brand" href="#">Ops Center</a>
+        <nav aria-label="Admin navigation">
+          <a class="active" href="#">Overview</a>
+          <a href="#">Users</a>
+          <a href="#">Subscriptions</a>
+          <a href="#">Integrations</a>
+          <a href="#">Notifications</a>
+          <a href="#">Settings</a>
+        </nav>
+      </aside>
+
+      <main class="content">
+        <header class="page-header">
+          <div>
+            <p class="eyebrow">Admin operations</p>
+            <h1>Monitor the SaaS system before small issues become expensive.</h1>
+            <p>Use mock data to demonstrate user management, billing awareness, and integration health in one operator view.</p>
+          </div>
+          <button>Export report</button>
+        </header>
+
+        <section class="kpis" id="kpis" aria-label="Key metrics"></section>
+
+        <section class="grid">
+          <article class="panel chart-panel">
+            <div class="panel-header">
+              <h2>Activity trend</h2>
+              <span>Last 7 days</span>
+            </div>
+            <div class="chart" id="chart"></div>
+          </article>
+
+          <article class="panel">
+            <div class="panel-header">
+              <h2>Integration health</h2>
+            </div>
+            <div class="integration-list" id="integrations"></div>
+          </article>
+        </section>
+
+        <section class="panel">
+          <div class="panel-header">
+            <h2>User review queue</h2>
+            <a href="#">Open users</a>
+          </div>
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>User</th>
+                  <th>Plan</th>
+                  <th>Status</th>
+                  <th>Risk</th>
+                  <th>Action</th>
+                </tr>
+              </thead>
+              <tbody id="users"></tbody>
+            </table>
+          </div>
+        </section>
+      </main>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
