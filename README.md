@@ -44,6 +44,29 @@ This repository uses mock data only. It does not include production credentials,
 - Security review
 - Site errors
 
+## Need a Custom Version?
+
+This template is a public demo for a SaaS back office. If you need a real admin dashboard, it can be expanded into a secure operations panel connected to your users, subscriptions, analytics, support, and internal workflows.
+
+Custom build options can include:
+
+- User and role management
+- Subscription and payment reporting
+- Approval and review queues
+- Integration health monitoring
+- Notification and incident management
+- Analytics and KPI reporting
+- Content or prompt management
+- Security review workflows
+- Export tools for operations teams
+
+If your SaaS, CRM, marketplace, or internal tool needs an admin dashboard that operators can actually use, connect with me on LinkedIn: [Yaver Abbas](https://www.linkedin.com/in/yawarak/).
+
+## Related Open Source Templates
+
+- [Upwork Proposal Generator AI](https://github.com/yaverabbas/upwork-proposal-generator-ai)
+- [SaaS Member Dashboard Template](https://github.com/yaverabbas/saas-member-dashboard-template)
+
 ## Deployment Guide
 
 This template is static HTML, CSS, and JavaScript.
